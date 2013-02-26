@@ -4,7 +4,7 @@ var util = require('util');
  * - all parameters must be passed in a single JSON paramater.
  * - the return 'callback' method signature is 'callback (error, data)', where 'data' is a JSON object.
 */
-bb
+
 exports.storeInfo = function(params, callback) {
   $fh.db({
   "act": "create",
